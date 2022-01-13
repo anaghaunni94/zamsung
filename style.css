@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    background-color: #8f8f8f;
+    background-size: cover;
+}
+.head {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    color: rgb(231, 59, 59);
+    
+}
+.head p {
+    padding: 2rem;
+    color: rgb(145, 48, 48);
+    font-weight: bolder;
+  
+}
+header ul {
+    margin-left: 8rem;
+    position:absolute;
+    left: 3rem;
+    top: 3rem;
+    
+}
+header ul li {
+    display: inline-block;
+    margin-left: 1rem;
+    list-style-type:none;
+    
+}
+a {
+    text-decoration: none;
+}
+header a {
+    color: rgb(60, 65, 66);
+}
+nav ul {
+    display: inline-flex;
+    position: relative;
+    left: 70%;
+  
+}
+nav ul li {
+    list-style-type: none;
+    margin: 2rem;
+    font-size: 20px;
+
+    
+}
+nav a {
+    color: rgb(231, 59, 59);
+   
+}
+hr {
+    padding: 1.5rem;
+    border: dotted 2px rgb(156, 151, 151);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    margin: auto;
+}
+.container {
+    display: inline-flex;
+    justify-content:center;
+    padding-top: 2rem;
+}
+.container div {
+    align-items:center;
+    margin-left: 1rem;
+    flex-grow: 1;
+}
+
+article {
+    margin-top: 1rem;
+    background:url(../images/back.jpeg);
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+
+   
+}
+article h2 {
+    display: inline-flex;
+    position: relative;
+    padding: 1rem;
+    left: 70%;
+   font-size: 18px;
+   top: 10rem;
+   
+}
+article a {
+    color: blanchedalmond;
+}
+.first {
+    text-decoration: underline;
+}
+.second {
+    border: solid 2px whitesmoke;
+    border-radius:2rem;
+}
+.second:hover {
+    background-color: rgb(129, 107, 107);
+    
+}
+.first:hover {
+    text-decoration: none;
+}
+aside h1 {
+    text-align: center;
+    padding: 4rem;
+    font-size: 2rem;
+    color:  rgb(145, 48, 48);
+}
+.last {
+    display: grid;
+    grid-template-areas:
+                        'one two'
+                        'one four';
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+.one {
+    grid-area: one;
+    background: url(../images/laptop.jpeg);
+    height: 52vh;
+    background-size: cover;
+    background-position:center ;
+    border-radius: 1rem;
+}
+.two {
+    grid-area: two;
+    background: url(../images/mob1.jpeg);
+    height: 25vh;
+    background-size: cover;
+    background-position:center ;
+    border-radius: 1rem;
+}
+
+.four {
+    grid-area: four;
+    background: url(../images/mob3.jpeg);
+    height: 25vh;
+    background-size: cover;
+    background-position:center ;
+    border-radius: 1rem;
+}
+footer {
+    background: rgb(66, 63, 63);
+    height: 6rem;
+}
+footer p {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff8dccc;
+    position: relative;
+    top: 2.5rem;
+    font-family: cursive;
+}
